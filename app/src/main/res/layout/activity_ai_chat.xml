@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="?android:colorBackground">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar"
+        android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        app:title="AI Consultation" app:navigationIcon="?attr/homeAsUpIndicator"/>
+    <!-- No API key panel -->
+    <LinearLayout android:id="@+id/panel_no_key"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:orientation="vertical" android:gravity="center" android:padding="32dp"
+        android:visibility="gone">
+        <ImageView android:layout_width="72dp" android:layout_height="72dp"
+            android:src="@drawable/ic_logo_gold" android:layout_marginBottom="16dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="API Key Required" android:textSize="22sp" android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Enter your OpenAI API key in Settings to enable AI consultation."
+            android:textSize="15sp" android:textColor="?android:textColorSecondary"
+            android:gravity="center" android:layout_marginBottom="24dp"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btn_open_settings"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Open Settings" app:cornerRadius="14dp"/>
+    </LinearLayout>
+    <!-- Chat messages -->
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_chat"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:clipToPadding="false" android:padding="6dp"/>
+    <!-- Input bar -->
+    <LinearLayout android:id="@+id/input_bar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:padding="8dp" android:gravity="center_vertical">
+        <EditText android:id="@+id/et_message"
+            android:layout_width="0dp" android:layout_height="46dp" android:layout_weight="1"
+            android:hint="Describe symptoms…" android:background="@drawable/bg_input"
+            android:paddingHorizontal="16dp" android:textSize="15sp"
+            android:inputType="text" android:imeOptions="actionSend"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btn_send"
+            android:layout_width="46dp" android:layout_height="46dp" android:layout_marginStart="6dp"
+            app:icon="@android:drawable/ic_menu_send" app:iconGravity="textStart"
+            app:cornerRadius="12dp"
+            style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"/>
+    </LinearLayout>
+</LinearLayout>

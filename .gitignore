@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+.idea/
+build/
+local.properties
+*.apk
+*.aab
+*.dex
+*.class
+*.log
+__pycache__/
+.DS_Store
+*.dSYM/

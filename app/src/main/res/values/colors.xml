@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gold">#c8a97e</color>
+    <color name="accent">#4a7dff</color>
+    <color name="accent_gradient_start">#5B8DEF</color>
+    <color name="accent_gradient_end">#3A6FE8</color>
+    <color name="bg_dark">#0c1117</color>
+    <color name="surface_dark">#141a22</color>
+</resources>

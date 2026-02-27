@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="90" fill="#0c1117"/>
+  <g transform="translate(256,256) scale(0.7)" fill="#c8a97e" stroke="#c8a97e" stroke-width="2">
+    <!-- Staff -->
+    <line x1="0" y1="-180" x2="0" y2="180" stroke-width="12" stroke-linecap="round"/>
+    <!-- Ball top -->
+    <circle cx="0" cy="-180" r="16"/>
+    <!-- Wings left -->
+    <path d="M-10,-165 C-40,-175 -90,-185 -130,-165 C-100,-160 -60,-155 -15,-155" fill="#c8a97e"/>
+    <path d="M-15,-155 C-55,-148 -85,-145 -120,-155 C-90,-148 -55,-142 -15,-148" fill="#b08e5e"/>
+    <!-- Wings right -->
+    <path d="M10,-165 C40,-175 90,-185 130,-165 C100,-160 60,-155 15,-155" fill="#c8a97e"/>
+    <path d="M15,-155 C55,-148 85,-145 120,-155 C90,-148 55,-142 15,-148" fill="#b08e5e"/>
+    <!-- Snake left -->
+    <path d="M-6,-140 C-40,-120 -45,-90 -20,-70 C5,-50 -40,-30 -45,0 C-50,30 -5,50 10,30 C25,10 -30,70 -35,100 C-40,130 0,150 15,130" fill="none" stroke="#c8a97e" stroke-width="10" stroke-linecap="round"/>
+    <!-- Snake right -->
+    <path d="M6,-140 C40,-120 45,-90 20,-70 C-5,-50 40,-30 45,0 C50,30 5,50 -10,30 C-25,10 30,70 35,100 C40,130 0,150 -15,130" fill="none" stroke="#c8a97e" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

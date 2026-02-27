@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="?android:colorBackground">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:text="OpenAI API Key" android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <EditText android:id="@+id/et_api_key" android:layout_width="match_parent" android:layout_height="48dp" android:hint="sk-..." android:inputType="textPassword" android:background="@drawable/bg_input" android:paddingHorizontal="16dp" android:layout_marginBottom="28dp"/>
+        <TextView android:text="Appearance" android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <RadioGroup android:id="@+id/rg_theme" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="36dp">
+            <RadioButton android:id="@+id/rb_system" android:text="Follow System" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rb_light" android:text="Light" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rb_dark" android:text="Dark" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btn_save" android:layout_width="match_parent" android:layout_height="52dp" android:text="Save" xmlns:app="http://schemas.android.com/apk/res-auto" app:cornerRadius="14dp"/>
+    </LinearLayout>
+</LinearLayout>

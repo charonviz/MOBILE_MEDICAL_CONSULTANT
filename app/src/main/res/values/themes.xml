@@ -1,0 +1,19 @@
+<resources>
+    <style name="Theme.MedScope" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#4a7dff</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#c8a97e</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+    </style>
+    <style name="Theme.MedScope.Splash">
+        <item name="android:windowBackground">#0c1117</item>
+        <item name="android:statusBarColor">#0c1117</item>
+        <item name="android:navigationBarColor">#0c1117</item>
+    </style>
+    <style name="Theme.MedScope.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#4a7dff</item>
+        <item name="android:colorBackground">#0c1117</item>
+        <item name="colorSurface">#141a22</item>
+    </style>
+</resources>
