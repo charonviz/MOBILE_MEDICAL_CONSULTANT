@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="imgs/logo_showcase.png" alt="MedScope — Gold Caduceus" width="100%">
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-Android-3DDC84.svg" alt="Android">
@@ -9,6 +6,10 @@
   <img src="https://img.shields.io/badge/nodes-108-4a7dff.svg" alt="108 nodes">
   <img src="https://img.shields.io/badge/AI-GPT--4o--mini-blueviolet.svg" alt="GPT">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License"></a>
+</p>
+
+<p align="center">
+  <img src="imgs/logo_showcase.png" alt="MedScope — Gold Caduceus" width="100%">
 </p>
 
 ---
