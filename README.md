@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="imgs/logo_showcase.png" alt="MedScope — Gold Caduceus" width="100%">
+  <img src="imgs/logo_showcase.png" alt="MedScope — Gold Caduceus" width="50%">
 </p>
 
 ---
